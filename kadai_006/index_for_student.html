@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <!-- ************************************************ bootstrap.min.cssの読み込み -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- ************************************************ carousel.cssの読み込み -->
+    <link href="carousel.css" rel="stylesheet">
+    <!-- ************************************************ bootstrap.bundle.min.jsの読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous" defer></script>
+  </head>
+  <body>
+    <main>
+      <!-- ************************************************ カールセル開始 -->
+      <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel"> -->
+      <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="img/top_1.jpg" alt="サンプル画像1">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                  metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/top_2.jpg" alt="サンプル画像2">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                  metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/top_3.jpg" alt="サンプル画像3">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                  metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- ************************************************ カールセル終了 -->
+
+       <div class="container">
+        <!-- 
+        <style>
+          .button-test {
+            padding: 10px 30px;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 5px;
+            margin: 30px;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 30%);
+          }
+        </style>
+         
+        <button class="btn btn-primary btn-lg shadow">ここを押す</button>
+        <div class="button-test">ここを押す</div>
+        <a href="" class="btn btn-info btn-sm shadow">ここを押す</a>
+        <br>
+        <button class="btn btn-success btn-lg shadow-sm">ここを押す</button>
+        <button class="btn btn-danger btn-sm shadow">ここを押す</button>
+        <button class="btn btn-waming shadow-lg">ここを押す</button>
+        <button class="btn btn-outline-info btn-lg shadow-none">ここを押す</button>
+        <button class="btn btn-outline-light btn-sm">ここを押す</button>
+        <button class="btn btn-outline-dark shadow-sm">ここを押す</button>
+        <button class="btn btn-link btn-lg shadow">ここを押す</button>
+        <button class="btn btn-primary btn-sm shadow-lg">ここを押す</button>
+        <button class="btn btn-secondary shadow-none">ここを押す</button>
+        <button class="btn btn-outline-success btn-lg">ここを押す</button>
+        -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="img/cake.jpg" class="rounded-circle" alt="サンプル画像2">
+              <h2>Heading</h2>
+              <p>
+              Donec sed odio dui. Etiam porta sem malesuada magna mollis 
+      euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. 
+      Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
+      Praesent commodo cursus magna.
+              </p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="img/cake.jpg" class="rounded-circle" alt="サンプル画像2">
+              <h2>Heading</h2>
+               <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis 
+        euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. 
+        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
+        Praesent commodo cursus magna.
+               </p>
+               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="img/cake.jpg" class="rounded-circle" alt="サンプル画像2">
+              <h2>Heading</h2>
+               <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis 
+        euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. 
+        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
+        Praesent commodo cursus magna.
+               </p>
+               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="img/cake.jpg" class="rounded-circle" alt="サンプル画像2">
+              <h2>Heading</h2>
+               <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis 
+        euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. 
+        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
+        Praesent commodo cursus magna.
+               </p>
+               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="img/cake.jpg" class="rounded-circle" alt="サンプル画像2">
+              <h2>Heading</h2>
+               <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis 
+        euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. 
+        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
+        Praesent commodo cursus magna.
+               </p>
+               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="img/cake.jpg" class="rounded-circle" alt="サンプル画像2">
+              <h2>Heading</h2>
+               <p>
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis 
+        euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. 
+        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
+        Praesent commodo cursus magna.
+               </p>
+               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+
+          </div>
+        </div>
+       </div>
+
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/sushi.jpg" class="img-fluid" alt="サンプル画像3">
+            <h2 class="fs-1 mt-5">First featurette heading. </h2>
+            <p class="fs-2">It’ll blow yourmind.</p>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+              euismod
+              semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <img src="img/sushi.jpg" class="img-fluid" alt="サンプル画像3">
+            <h2 class="fs-1 mt-5">First featurette heading. </h2>
+            <p class="fs-2">It’ll blow yourmind.</p>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+              euismod
+              semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <img src="img/sushi.jpg" class="img-fluid" alt="サンプル画像3">
+            <h2 class="fs-1 mt-5">First featurette heading. </h2>
+            <p class="fs-2">It’ll blow yourmind.</p>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+              euismod
+              semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <img src="img/sushi.jpg" class="img-fluid" alt="サンプル画像3">
+            <h2 class="fs-1 mt-5">First featurette heading. </h2>
+            <p class="fs-2">It’ll blow yourmind.</p>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+              euismod
+              semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+          </div>
+
+
+
+        </div>
+
+
+
+        <hr class="featurette-divider">
+        <footer class="container">
+          <!-- <p class="float-end"><a href="#">Back to top</a></p> -->
+          <p class=""><a href="#">Back to top</a></p>
+        </footer>
+      </div>
+    </main>
+  </body>
+
+</html>
